@@ -1,0 +1,33 @@
+.mecha-bg-light {
+    background-color: lightgrey;
+}
+
+.mecha-bg-light .navbar-brand img {
+    width: 30px;
+}
+
+.mecha-btn-search {
+    background-color: none;
+    border: 1px solid grey;
+    color: white;
+}
+
+.mecha-btn-search:hover{
+    background-color: greenyellow;
+}
+
+.bg-keychron {
+    background-color: grey;
+    color: white;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .keychron-image {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .bg-keychron {
+        border-radius: 0 !important ;
+    }
+}
